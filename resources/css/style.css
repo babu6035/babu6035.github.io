@@ -57,8 +57,7 @@ section {
 }
 /* ----- HEADINGS ----- */
 h1,
-h2,
-h3 {
+h2 {
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -81,6 +80,7 @@ h2 {
 }
 
 h3 {
+    font-weight: 400;
     font-size: 100%;
     margin-bottom: 15px;
 }
@@ -134,17 +134,16 @@ h2:after {
 
 a:link,
 a:visited {
-    color: #ffffff;
+    color: #0059ff;
     text-decoration: none;
     padding-bottom: 1px;
-    border-bottom: 1px solid #ffffff;
-    -webkit-transition: border-bottom 0.2s, color 0.2s;
-    transition: border-bottom 0.2s, color 0.2s;
+    
+    
 }
 
 a:hover,
 a:active {
-    color: rgb(0, 0, 0);
+    color: #e67e22;
     border-bottom: 1px solid transparent;
 }
 
@@ -593,7 +592,7 @@ img {
 }
 
 .grid-container {
-    background-color: #242424e1;
+    background-color: #ffffffe1;
 
     padding-top: 1.6rem;
     padding-bottom: 0.6rem;
@@ -602,12 +601,37 @@ img {
 }
 
 .grid-container li {
+    font-size: 15px;
     color: white;
     margin-right: 1.1rem;
     position: relative;
     display: inline-block;
     margin-bottom: 1rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #f1f1f1;
 }
+
+.grid-container a:hover{
+    color: #ffffff;
+    background-color: #00aced;
+    border-radius: 15px;
+}
+
+
+
+.res-icon{
+    width: 85px;
+    height: auto;
+    margin: 0 auto 10px auto;
+}
+
+
+
+
+
+
 
 
 
