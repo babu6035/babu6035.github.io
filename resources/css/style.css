@@ -218,10 +218,10 @@ header {
 }
 
 .logo {
-    height: 100px;
+    height: 75px;
     width: auto;
     float: left;
-    margin-top: 20px;
+    margin-top: 35px;
 }
 
 .logo-black { 
@@ -523,63 +523,6 @@ img {
 /**********
 * RESSOURCE NAVIGATION
 
-.grid-container {
-
-    padding-top: 1.6rem;
-    padding-bottom: 0.6rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-
-.grid-container ul {
-    font-size: 15px;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.grid-container li {
-    margin-right: 1.1rem;
-    position: relative;
-    display: inline-block;
-    margin-bottom: 1rem;
-}
-
-.grid-container a:link,
-.grid-container a:visited {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: #38464d;
-    text-transform: uppercase;
-    font-weight: 400;
-    background-color: #f0f3f3;
-    padding: 0.5rem 1.3rem;
-    border-radius: 2rem;
-    transition: all 0.3s;
-}
-
-.grid-container a:hover,
-.grid-container a:active {
-    color: #fff;
-    background-color: #26afeb;
-}
-
-.grid-container a:hover .group-nav--icon,
-.grid-container a:active .group-nav--icon {
-    color: #fff;
-}
-
-.group-nav--icon {
-    color: #26afeb;
-    font-size: 1.9rem;
-    margin-right: 1rem;
-    display: block;
-    transition: all 0.3s;
-}
-
 **********/
 
 .grid-container ul {
@@ -602,22 +545,12 @@ img {
 
 .grid-container li {
     font-size: 15px;
-    color: white;
-    margin-right: 1.1rem;
-    position: relative;
-    display: inline-block;
-    margin-bottom: 1rem;
-    border: 2px solid #e0e0e0;
+    border: 1px solid #ffffff;
     border-radius: 15px;
     padding: 10px;
-    background-color: #f1f1f1;
+    
 }
 
-.grid-container a:hover{
-    color: #ffffff;
-    background-color: #00aced;
-    border-radius: 15px;
-}
 
 
 
@@ -631,7 +564,35 @@ img {
 
 
 
+.btnn {
+    background-color: rgb(241, 241, 241);
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    padding: 10px;
+}
 
+.btnn:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
 
+.btn a{
+    color: #000000;
+}
+
+.btnn a:hover{
+    color: white;
+}
+
+.grid-container a{
+    color: #000000;
+}
 
 
