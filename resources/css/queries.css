@@ -126,3 +126,14 @@
     .contact-form {width: 100%; }
 }
 
+
+
+@media (min-width: 500px) {
+    .content {
+        width: 43%;
+    }
+
+    #button {
+        margin: 30px;
+    }
+}
