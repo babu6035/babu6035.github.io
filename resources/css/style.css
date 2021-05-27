@@ -654,13 +654,4 @@ img {
     line-height: 1.9;
 }
 
-@media (min-width: 500px) {
-    .content {
-        width: 43%;
-    }
-
-    #button {
-        margin: 30px;
-    }
-}
 
